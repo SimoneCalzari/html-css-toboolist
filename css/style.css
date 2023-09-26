@@ -13,7 +13,7 @@ Generale
 body {
   font-family: 'Croissant One', cursive;
   font-family: 'Roboto', sans-serif;
-  font-size: 22px;
+  /* font-size: 22px; */
   background-color: #f6f8f9;
 }
 
@@ -61,8 +61,6 @@ Colors
   background-color: #a3d116;
 }
 
-
-
 /* 
 -----------
 Header
@@ -70,20 +68,19 @@ Header
 */
 
 header {
-  /* border: 1px solid black; */
   background-color: #ffffff;
   padding: 10px 0;
 }
 
 header img {
   vertical-align: middle;
-  margin: 0 5px 0 10px;
+  margin: 0 5px 0 15px;
 }
 
 h1 {
-  /* display: inline-block; */
   vertical-align: middle;
   font-weight: bold;
+  font-size: 40px;
 }
 
 /* 
@@ -96,7 +93,7 @@ main {
   background-color: #ffffff;
   margin: 40px auto 40px auto;
   width: 800px;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 /* 
@@ -152,30 +149,32 @@ section {
 
 ul {
   list-style: none;
+  padding-top: 10px;
 }
 
 li {
-  margin-bottom: 3px;
+  margin-bottom: 15px;
 }
 
 .option {
-  font-size: 14px;
+  font-size: 16px;
+  margin-right: 5px;
 }
 .circle {
   border: 1px solid;
-  width: 15px;
-  height: 15px;
-  font-size: 8px;
+  width: 17px;
+  height: 17px;
+  font-size: 10px;
   text-align: center;
-  line-height: 15px;
+  line-height: 17px;
   border-radius: 50%;
+  margin-right: 5px;
 }
 
 .button-style {
   border: 1px solid;
-  font-size: 10px;
-  padding: 3px 10px;
-  color: black;
+  font-size: 11px;
+  padding: 5px 10px;
   border-radius: 10px;
   color: white;
 }

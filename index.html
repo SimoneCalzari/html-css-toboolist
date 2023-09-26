@@ -4,27 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Toboolist</title>
+    <!-- Google fonts roboto -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Croissant+One&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <!-- collegamento al css -->
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
+    <!-- header -->
     <header>
       <img src="img/Logo.png" alt="Boolean Logo">
       <h1 class="inline-block">Toboolist</h1>
     </header>
     <main>
+      <!-- bottoni della barra in alto della main -->
       <div class="container1">
         <div class="buttons">
           <button id="task-button">Add Task</button>
           <button id="section-button">Add Section</button>
         </div>
       </div>
+      <!-- sezioni della to dolist -->
       <div class="container2">
+        <!-- sezione nuovo task -->
         <section>
           <div class="arrow inline-block">&#9660;</div>
-          <h5 class="inline-block">New Task</h5>
+          <h3 class="inline-block">New Task</h3>
           <ul>
             <li>
               <div class="circle inline-block check-txt-color">&check;</div>
@@ -33,9 +39,10 @@
             </li>
           </ul>
         </section>
+        <!-- sezione di oggi -->
         <section>
           <div class="arrow inline-block">&#9660;</div>
-          <h5 class="inline-block">Today</h5>
+          <h3 class="inline-block">Today</h3>
           <ul>
             <li>
               <div class="circle inline-block check-txt-color">&check;</div>
@@ -60,12 +67,13 @@
             </li>
           </ul>
         </section>
+        <!-- sezione per il futuro prossimo -->
         <section>
           <div class="arrow inline-block">&#9660;</div>
-          <h5 class="inline-block">Upcoming</h5>
+          <h3 class="inline-block">Upcoming</h5>
           <ul>
             <li>
-              <div class="circle inline-block cross-txt-color">&cross;;</div>
+              <div class="circle inline-block cross-txt-color">&cross;</div>
               <div class="option inline-block">Schedule meeting with Alex</div>
             </li>
             <li>
